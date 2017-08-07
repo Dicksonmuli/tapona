@@ -34,15 +34,29 @@
         border: 100px;
         padding: 0px;
     }
+		.heading {
+			font-family: "Slabo 27px", serif;
+
+		}
+		.heading p {
+			font-size: 36px;
+		}
 
     h2 {
-        font-style: italic;
+        /*font-style: italic;*/
         font-weight: bold;
         color:
     }
+		hr {
+    border: none;
+    height: 2px;
+    /* Set the hr color */
+    color: #333; /* old IE */
+    background-color: #333; /* Modern Browsers */
+}
 
     p {
-        font-style: oblique;
+        /*font-style: oblique;*/
         color:
     }
 
@@ -52,9 +66,6 @@
         text-align: center;
     }
 
-    .mike {
-        font-style: italic;
-    }
 
     =======.success {
         color: red;
@@ -84,17 +95,17 @@
     h1.para1 {
         text-align: center;
         text-decoration-line: underline;
-        color: aqua;
+        color: rgb(6, 137, 247);
     }
 
     h2.para2 {
         text-align: center;
-        color: aqua;
+        color: rgb(6, 137, 247);
     }
 
     h3.para3 {
         text-align: center;
-        color: aqua;
+        color: rgb(6, 137, 247);
     }
 
     .container {
@@ -119,67 +130,3 @@
         color: #000000;
         float: right;
     }
-
-.registration {
-  margin-top: 220px;
-  margin-left: 500px;
-  margin-right: 500px;
-  padding: 20px;
-  padding-top: 150px;
-  box-shadow: 1px 2px 2px 2px;
-  text-align: center;
-  background-color: grey;
-  opacity: 0.9;
-  background-image: url(../images/logo.png);
-  background-repeat: no-repeat;
-  background-size: contain;
-}
-
-.login {
-  background-image: url(../images/Moringa-School.jpg);
-  /*background-color: #a51010;*/
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.pair {
-  color: grey;
-  float: right;
-
-}
-.player{
-  float: right;
-}
-.container{
-  margin-top: 20px;
-border: 100px;
-padding: 0px;
-}
-h2{
-  font-style: italic;
-  font-weight: bold;
-  color:
-}
-p{
-  font-style:oblique;
-  color:
-
-}
-ul{
-
-}
-.logo{
-text-align: center;
-}
-
-.mike{
-  font-style: italic;
-
-.success {
-  color: red;
-}
-
-.pairs {
-  color: red;
-  font-style: italic;
-}
